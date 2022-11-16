@@ -11,7 +11,7 @@ Weather is sometimes difficult to predict. This accurate weather app allows to f
 * Weather Radar & Rain maps
 * Live-Preview
 
-Click Here to View Live Preview
+Click Here(https://akhil151.github.io/Weather_Detector/) to View Live Preview
 
 # Sample-Image
 
