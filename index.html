@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App - JavaScript</title>
+    <link rel="stylesheet" href="font/Rimouski.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="app-title">
+            <p>Weather</p>
+        </div>
+        <div class="cityname">
+            <input type="text" id="city_name" class="textarea" placeholder="Enter Country Name">
+            <input type="button"  onclick="refresh()" value="Search">
+        </div>
+        <div class="weather-container">
+            <div class="weather-icon">
+                <img src="icons/unknown.png" alt="">
+            </div>
+            <div class="temperature-value">
+                <p>- °<span>C</span></p>
+            </div>
+            <div class="temperature-description">
+                <p> - </p>
+            </div>
+            <div class="location">
+                <p>-</p>
+            </div>
+             <br><br>
+            <div class="count">
+                <p>No of time website has been visited <a id="counter"></a></p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+
+
